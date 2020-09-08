@@ -160,7 +160,7 @@
     - What algorithm and data structure `indexing` used? And why?
     - How `composite indexing` works?
     - How to know your query is using index?
-    - How index work in this case: `WHERE age = 5` and `Where age > 5`? The complexity to go to the next record?
+    - How index wor k in this case: `WHERE age = 5` and `Where age > 5`? The complexity to go to the next record?
     - Indexing with char?
 
 4. The complexity of SQL query? How to measure it? How SQL optimize a query?
