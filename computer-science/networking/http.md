@@ -2,7 +2,7 @@
 - hyper text transfer protocol
 - the protocol that web server and web client use to communicate with each other over Internet
 #### Basic properties:
-    - stateless:
+    - stateless:  -> the server do not retain info of client -> how to track client-> trick(coockie, service side session, url.. )
         - after the request from client is serviced by client, the connection is disconnected
         - each request is independently
         - why: maintaining a connection is resource intensive
@@ -11,7 +11,9 @@
         - after request was served, connection is destroyed
         - reason: server resource should be shared equally by all clients.    
 
-
+(more) -> http stateless vs tcp connection orientted (= tcp statefull)vs keep-alive on http header  
+(more) -> http/2 -> statefull 
+(more) -> understand more the HTTP use state-alive continue doing in the tcp connection
 #### HTTP persistent/ HTTP keep-alive
 
 ![](../images/http.png)
